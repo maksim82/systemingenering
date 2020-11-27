@@ -1,0 +1,13 @@
+  input:checked + span {
+    background: #7FFF00;
+   }
+
+  .button1 {
+    background: gray; /* Синий цвет фона */ 
+    color: white; /* Белые буквы */ 
+    font-size: 9pt; /* Размер шрифта в пунктах */
+	}
+
+  .block {
+  	font-size: 15pt;
+  }

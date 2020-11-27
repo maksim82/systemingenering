@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+      #navbar ul{
+        display: none;
+        background-color: #f90;
+        position: absolute;
+        top: 100%;
+      }
+      #navbar li:hover ul { display: block; }
+      #navbar, #navbar ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      #navbar {
+        height: 30px;
+        background-color: #666;
+        
+        min-width: 470px;
+      }
+      #navbar li {
+        float: left;
+        position: relative;
+        height: 100%;
+      }
+      #navbar li a {
+        display: block;
+        padding: 6px;
+        width: 100px;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+      }
+      #navbar ul li { float: none; }
+      #navbar li:hover { background-color: #f90; }
+      #navbar ul li:hover { background-color: #666; }
+    </style>
+</head>
+
+<body>
+
+<ul id="navbar">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Clients</a></li>
+    <li><a href="#">About</a>
+        <ul>
+            <li><a href="#">our team</a></li>
+            <li><a href="#">history</a></li>
+            <li><a href="#">Email</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Contast us</a></li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link href="rer16.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<form class="contact_form" action="#" method="post" name="contact_form">
+    <ul>
+        <li>
+            <h2>Связь с нами</h2>
+            <span class="required_notification">* Обязательное поле</span>
+        </li>
+        <li>
+            <label for="name">Name:</label>
+            <input type="text"  placeholder="Maxim Tokunov" required />
+        </li>
+        <li>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Max280602@yandex.ru" required />
+            <span class="form_hint">Правильный формат "name@something.ru"</span>
+        </li>
+        <li>
+            <label for="website">Website:</label>
+            <input type="url" name="website" placeholder="http://oqicess.ru" required pattern="(http|https)://.+"/>
+            <span class="form_hint">Правильный формат "http://someaddress.com"</span>
+        </li>
+        <li>
+            <label for="message">Message:</label>
+            <textarea name="message" cols="40" rows="6" required ></textarea>
+        </li>
+        <li>
+            <button class="submit" type="submit">Submit Form</button>
+        </li>
+    </ul>
+</form>
+</body>
+</html>
